@@ -4,11 +4,10 @@ import { RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
 
 @Component({
-  selector: 'app-side-menu',
-  standalone: true,
-  imports: [ CommonModule, RouterLink ],
-  templateUrl: './side-menu.component.html',
-  styleUrl: './side-menu.component.css'
+    selector: 'app-side-menu',
+    imports: [CommonModule, RouterLink],
+    templateUrl: './side-menu.component.html',
+    styleUrl: './side-menu.component.css'
 })
 export class SideMenuComponent {
 
